@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Db</title>
+</head>
+<style>
+    #wrapper{
+    width: 400px;
+    height:400px;
+    background-color: maroon;
+    border-radius: 10px;
+    }
+</style>
+<body>
+    <div id="wrapper">
+        <button onclick="change()" ondblclick="demo()">Submit</button>
+    </div>
+    <script>
+        function change(){
+            var a=document.getElementById("wrapper")
+            a.style="background:pink"
+        }
+        function demo(){
+            var a=document.getElementById("wrapper")
+            a.style="background:skyblue"
+        }
+    </script>
+    
+</body>
+</html>
